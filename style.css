@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.btn{
+    padding: 3px 6px;
+     background: transparent;
+     border: 1px solid black;
+     border-radius: 5px;
+}
+h3{
+    font-size: 25px;
+    margin-right: 20px;
+}
+ /* <!-- ------ Main Body Section ------------ --> */
+ main{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+    background-image: url(./image/WhatsApp\ Image\ 2022-07-07\ at\ 9.26.10\ AM.jpeg);
+    color: white;
+ }
+ .text-col{
+    flex-basis: 50%;
+    padding-left: 50px;
+    margin: auto;
+    margin-top: 50px;
+ }
+ .form-col{
+    flex-basis: 50%;
+    margin: auto;
+    margin: 50px 0px;
+ }
+ h1{
+    font-size: 45px;
+    margin: 10px 0px;
+ }
+a{
+    text-decoration: none;
+    color: red;
+}
+form{
+    width: 80%;
+}
+form input{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 8px 4px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+}
+form button{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(21, 121, 21);
+    border: none;
+    color: #ffff;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+footer h2{
+    font-size: 32px;
+}
+footer p a{
+    color: rgb(197, 66, 197);
+}
+.text-col p{
+    font-size: 16px;
+    width: 95%;
+    margin-bottom: 8px;
+}
+
+
+@media only screen and (max-width: 768px){
+    main{
+        flex-direction: column;
+    }
+    .search{
+        width: 50%;
+    }
+    
+    h3{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    .text-col{
+        display: block;
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+     }
+     .form-col{
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding: 20px 0px;
+        align-items: center;
+        width: 100%;
+    }
+    form{
+        width: 80%;
+       margin: auto;
+    }
+
+    h1{
+        font-size: 40px;
+        margin: 10px 0px;
+     }
+     footer h2{
+        font-size: 25px;
+    }
+    footer p a{
+        color: rgb(197, 66, 197);
+    }
+    footer p{
+        font-size: 14px;
+    }
+    p{
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+    }
+    .btn{
+        padding: 3px 6px;
+        width: 50%;
+         background: transparent;
+         border: 1px solid black;
+         border-radius: 5px;
+    }
+}
